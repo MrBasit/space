@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,9 +17,10 @@
     <script src="./js/popper.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
 </head>
+
 <body>
-     <!-- header start -->
-     <header class="header mb-4">
+    <!-- header start -->
+    <header class="header mb-4">
         <div class="containers">
             <div class="rows v-center">
                 <div class="header__item item--left--mobile profile">
@@ -34,7 +36,7 @@
                 <!-- menu start here -->
                 <div class="header__item item--center">
                     <div class="menu-overlay">
-                        
+
                     </div>
                     <nav class="menu">
                         <div class="mobile-menu-head">
@@ -42,10 +44,10 @@
                                 <i class="fa fa-angle-left"></i>
                             </div>
                             <div class="current-menu-tittle">
-                              
+
                             </div>
                             <div class="mobile-menu-close">
-                               &times;
+                                &times;
                             </div>
                         </div>
                         <ul class="manu-main">
@@ -55,9 +57,10 @@
                             <li class="menu-item-has-children">
                                 <a href="#">Portfolio <i class="fas fa-angle-down"></i></a>
                                 <div class="sub-manu sub-manu mega-menu mega-menu-column-4">
-                                    
-                                    <div class="list-item">   
-                                        <a onclick="changeTabs2('tab-1')" href="_portfolio.html" class="tittle portfolio__menu__items__menu ">Logo</a> 
+
+                                    <div class="list-item">
+                                        <a onclick="changeTabs2('tab-1')" href="_portfolio.html"
+                                            class="tittle portfolio__menu__items__menu ">Logo</a>
                                         <ul>
                                             <li>
                                                 <a href="#">Direct Income</a>
@@ -71,7 +74,8 @@
                                         </ul>
                                     </div>
                                     <div class="list-item">
-                                        <a onclick="changeTabs2('tab-2')" href="_portfolio.html" class="tittle portfolio__menu__items__menu">Package</a>
+                                        <a onclick="changeTabs2('tab-2')" href="_portfolio.html"
+                                            class="tittle portfolio__menu__items__menu">Caricature</a>
                                         <ul>
                                             <li>
                                                 <a href="#">Create Id</a>
@@ -82,11 +86,12 @@
                                             <li>
                                                 <a href="#">Create Supporting Ids</a>
                                             </li>
-                                            
+
                                         </ul>
                                     </div>
                                     <div class="list-item">
-                                        <a onclick="changeTabs2('tab-3')"  href="_portfolio.html" class="tittle portfolio__menu__items__menu ">Branding</a>
+                                        <a onclick="changeTabs2('tab-3')" href="_portfolio.html"
+                                            class="tittle portfolio__menu__items__menu ">Graphics</a>
                                         <ul>
                                             <li>
                                                 <a href="#">Fund Transfer</a>
@@ -100,7 +105,8 @@
                                         </ul>
                                     </div>
                                     <div class="list-item">
-                                        <a onclick="changeTabs2('tab-4')"  href="_portfolio.html" class="tittle portfolio__menu__items__menu">UI</a>
+                                        <a onclick="changeTabs2('tab-4')" href="_portfolio.html"
+                                            class="tittle portfolio__menu__items__menu">Visual Identity</a>
                                         <ul>
                                             <li>
                                                 <a href="#">Fund Transfer</a>
@@ -113,7 +119,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    
+
                                 </div>
                             </li>
                             <li>
@@ -122,10 +128,10 @@
                             <li>
                                 <a href="_about_us.html">About</a>
                             </li>
-                            
-                           
-                          
-                           
+
+
+
+
                         </ul>
                     </nav>
                 </div>
@@ -134,16 +140,16 @@
                     <div class="search-box">
                         <input type="text" name="search" placeholder="looking for ?">
                         <div class="search-btn">
-                           <i class="fas fa-search"></i>
+                            <i class="fas fa-search"></i>
                         </div>
                         <div class="cancel-btn">
                             <i class="fas fa-times"></i>
                         </div>
                         <div class="search-data">
-                            
+
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -152,64 +158,73 @@
     <!-- Showcase Slider Start -->
     <div class="containers showcase__slider mt-4">
         <div class="carousel slide mb-4" id="slider1" data-ride="carousel">
-           <ol class="carousel-indicators">
-               <li class="d-none d-md-block active rounded-circle" data-slide-to="0" data-target="#slider1"></li>
-               <li class="d-none d-md-block rounded-circle" data-slide-to="1" data-target="#slider1"></li>
-               <li class="d-none d-md-block rounded-circle" data-slide-to="2" data-target="#slider1"></li>                  
-           </ol>
+            <ol class="carousel-indicators">
+                <li class="d-none d-md-block active rounded-circle" data-slide-to="0" data-target="#slider1"></li>
+                <li class="d-none d-md-block rounded-circle" data-slide-to="1" data-target="#slider1"></li>
+                <li class="d-none d-md-block rounded-circle" data-slide-to="2" data-target="#slider1"></li>
+            </ol>
 
-           <div class="carousel-inner rounded">
-               <div class="carousel-item slidees active">
-                   <img src="./images/content/s1.jpg" class="showcase__slider__img img-fluid d-block">
-                   <div class="slider__content d-flex aligns-items-center justify-content-center">
-                       <h1 class="showcase__title mb-md-4">Lorem, ipsum.</h1>
-                       <p class="showcase__text mb-md-3 mb-2 w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem vitae ad veniam unde itaque rem.</p>
-                       <a href="#" class="showcase__slider__btn btn btn-outline-light w-25">Click Me</a>
-                   </div>
-                   
-               </div>
-               <div class="carousel-item slidees rounded">
-                   <img src="./images/content/s2.jpg" class="showcase__slider__img img-fluid d-block">
-                   <div class="slider__content d-flex aligns-items-center justify-content-center">
-                    <h1 class="showcase__title mb-md-4">Lorem, ipsum.</h1>
-                    <p class="showcase__text mb-md-3 mb-2 w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem vitae ad veniam unde itaque rem.</p>
-                    <a href="#" class="showcase__slider__btn btn btn-outline-light w-25">Click Me</a>
+            <div class="carousel-inner rounded">
+                <div class="carousel-item slidees active">
+                    <img src="./images/content/s1.jpg" class="showcase__slider__img img-fluid d-block">
+                    <div class="slider__content d-flex aligns-items-center justify-content-center">
+                        <h1 class="showcase__title mb-md-4">Want To Explore?.</h1>
+                        <p class="showcase__text mb-md-3 mb-2 w-75">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Voluptatem vitae ad veniam unde itaque rem.</p>
+                        <a href="#" class="showcase__slider__btn btn btn-outline-light w-25">Click Me</a>
                     </div>
-               </div>
-               <div class="carousel-item slidees rounded">
-                   <img src="./images/content/s3.jpg" class="showcase__slider__img img-fluid d-block">
-                   <div class="slider__content d-flex aligns-items-center justify-content-center">
-                    <h1 class="showcase__title mb-md-4">Lorem, ipsum.</h1>
-                    <p class="showcase__text mb-md-3 mb-2 w-75">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem vitae ad veniam unde itaque rem.</p>
-                    <a href="#" class="showcase__slider__btn btn btn-outline-light w-25">Click Me</a>
-                </div>
-               </div>
-           </div>
 
-           <a href="#slider1" class="carousel-control-prev carousel-a" data-slide="prev">
-               <span class="carousel-control-prev-icon"></span>
-           </a>
-           <a href="#slider1" class="carousel-control-next carousel-a" data-slide="next">
-               <span class="carousel-control-next-icon"></span>
-           </a>
-       </div>
-   </div>
+                </div>
+                <div class="carousel-item slidees rounded">
+                    <img src="./images/content/s2.jpg" class="showcase__slider__img img-fluid d-block">
+                    <div class="slider__content d-flex aligns-items-center justify-content-center">
+                        <h1 class="showcase__title mb-md-4">Yes! You Are At Right Place</h1>
+                        <p class="showcase__text mb-md-3 mb-2 w-75">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Voluptatem vitae ad veniam unde itaque rem.</p>
+                        <a href="#" class="showcase__slider__btn btn btn-outline-light w-25">Click Me</a>
+                    </div>
+                </div>
+                <div class="carousel-item slidees rounded">
+                    <img src="./images/content/s3.jpg" class="showcase__slider__img img-fluid d-block">
+                    <div class="slider__content d-flex aligns-items-center justify-content-center">
+                        <h1 class="showcase__title mb-md-4">Checkout Our Portfolio</h1>
+                        <p class="showcase__text mb-md-3 mb-2 w-75">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Voluptatem vitae ad veniam unde itaque rem.</p>
+                        <a href="#" class="showcase__slider__btn btn btn-outline-light w-25">Click Me</a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#slider1" class="carousel-control-prev carousel-a" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#slider1" class="carousel-control-next carousel-a" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
     <!-- Showcase Slider End -->
     <!-- Cards Slider Start 1 -->
     <div id="card__slider__1" class="dashboard__slider containers my-5 py-4">
-        <p class="dashboard__slider__title display-4 text-center">Heading Of Slider</p>
-        <p class="dashboard__slider__subTitle lead text-center w-75 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, obcaecati voluptatem! Eius dolorum placeat architecto.</p>
+        <p class="dashboard__slider__title display-4 text-center">Logo</p>
+        <p class="dashboard__slider__subTitle lead text-center w-75 mx-auto">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Voluptate, obcaecati voluptatem! Eius dolorum placeat architecto.</p>
         <ul id="autoWidth" class="cs-hidden">
             <li class="item-a">
                 <div class="card__slides__main">
                     <div class="card__slides">
-                        <img class="" src="./images/thumbnails/c1.jpg" alt="slides img">
+                        <img class="" src="./imgs/LOGO/code-logo-template-gradient-design_23-2148810395.jpg"
+                            alt="slides img">
                         <div class="card__slides__overlay">
-                            <div class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center" >
-                            <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
-                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a href="#" class="btn btn-outline-light btn-sm" onclick="popupTogglerFunc('./images/content/c1.jpg')">Click Me</a>
-                             </div>
+                            <div
+                                class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center">
+                                <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
+                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit.</p>
+                                <a href="#" class="btn btn-outline-light btn-sm"
+                                    onclick="popupTogglerFunc('./imgs/LOGO/code-logo-template-gradient-design_23-2148810395.jpg')">Click
+                                    Me</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -217,12 +232,16 @@
             <li class="item-b">
                 <div class="card__slides__main">
                     <div class="card__slides">
-                        <img class="" src="./images/thumbnails/c2.jpg" alt="slides img">
+                        <img class="" src="./imgs/LOGO/flat-code-logo-collection_23-2148829940.jpg" alt="slides img">
                         <div class="card__slides__overlay">
-                            <div class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center" >
+                            <div
+                                class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center">
                                 <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
-                                    <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    <a class="btn btn-outline-light btn-sm" onclick="popupTogglerFunc('./images/content/c2.jpg')">Click Me</a>
+                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit.</p>
+                                <a class="btn btn-outline-light btn-sm"
+                                    onclick="popupTogglerFunc('./imgs/LOGO/flat-code-logo-collection_23-2148829940.jpg')">Click
+                                    Me</a>
                             </div>
                         </div>
                     </div>
@@ -231,12 +250,16 @@
             <li class="item-c">
                 <div class="card__slides__main">
                     <div class="card__slides">
-                        <img class="" src="./images/thumbnails/c3.jpg" alt="slides img">
+                        <img class="" src="./imgs/LOGO/golden-bird-logo-design_1195-336.jpg" alt="slides img">
                         <div class="card__slides__overlay">
-                            <div class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center" >
+                            <div
+                                class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center">
                                 <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
-                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a class="btn btn-outline-light btn-sm" onclick="popupTogglerFunc('./images/content/c3.jpg')">Click Me</a>
+                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit.</p>
+                                <a class="btn btn-outline-light btn-sm"
+                                    onclick="popupTogglerFunc('./imgs/LOGO/golden-bird-logo-design_1195-336.jpg')">Click
+                                    Me</a>
                             </div>
                         </div>
                     </div>
@@ -245,12 +268,17 @@
             <li class="item-d">
                 <div class="card__slides__main">
                     <div class="card__slides">
-                        <img class="" src="./images/thumbnails/c4.jpg" alt="slides img">
+                        <img class="" src="./imgs/LOGO/illustration-photo-studio-stamp-banner_53876-6842.jpg"
+                            alt="slides img">
                         <div class="card__slides__overlay">
-                            <div class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center" >
+                            <div
+                                class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center">
                                 <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
-                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a class="btn btn-outline-light btn-sm" onclick="popupTogglerFunc('./images/content/c4.jpg')">Click Me</a>
+                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit.</p>
+                                <a class="btn btn-outline-light btn-sm"
+                                    onclick="popupTogglerFunc('./imgs/LOGO/illustration-photo-studio-stamp-banner_53876-6842.jpg')">Click
+                                    Me</a>
                             </div>
                         </div>
                     </div>
@@ -259,12 +287,16 @@
             <li class="item-e">
                 <div class="card__slides__main">
                     <div class="card__slides">
-                        <img class="" src="./images/thumbnails/c5.jpg" alt="slides img">
+                        <img class="" src="./imgs/LOGO/letter-r-luxury-brand-logo_1055-10194.jpg" alt="slides img">
                         <div class="card__slides__overlay">
-                            <div class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center" >
+                            <div
+                                class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center">
                                 <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
-                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a class="btn btn-outline-light btn-sm" onclick="popupTogglerFunc('./images/content/c5.jpg')">Click Me</a>
+                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit.</p>
+                                <a class="btn btn-outline-light btn-sm"
+                                    onclick="popupTogglerFunc('./imgs/LOGO/letter-r-luxury-brand-logo_1055-10194.jpg')">Click
+                                    Me</a>
                             </div>
                         </div>
                     </div>
@@ -273,12 +305,16 @@
             <li class="item-f">
                 <div class="card__slides__main">
                     <div class="card__slides">
-                        <img class="" src="./images/thumbnails/c6.jpg" alt="slides img">
+                        <img class="" src="./imgs/LOGO/logo-organic-restaurant_1071-147.jpg" alt="slides img">
                         <div class="card__slides__overlay">
-                            <div class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center" >
+                            <div
+                                class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center">
                                 <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
-                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a class="btn btn-outline-light btn-sm" onclick="popupTogglerFunc('./images/content/c6.jpg')">Click Me</a>
+                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit.</p>
+                                <a class="btn btn-outline-light btn-sm"
+                                    onclick="popupTogglerFunc('./imgs/LOGO/logo-organic-restaurant_1071-147.jpg')">Click
+                                    Me</a>
                             </div>
                         </div>
                     </div>
@@ -290,19 +326,24 @@
     <!-- Cards Slider End -->
     <!-- Cards Slider Start 2 -->
     <div id="card__slider__2" class="dashboard__slider containers my-5 py-4">
-        <p class="dashboard__slider__title display-4 text-center">Heading Of Slider</p>
-        <p class="dashboard__slider__subTitle lead text-center w-75 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, obcaecati voluptatem! Eius dolorum placeat architecto.</p>
+        <p class="dashboard__slider__title display-4 text-center">Caricature</p>
+        <p class="dashboard__slider__subTitle lead text-center w-75 mx-auto">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Voluptate, obcaecati voluptatem! Eius dolorum placeat architecto.</p>
         <ul id="autoWidth2" class="cs-hidden">
             <li class="item-a">
                 <div class="card__slides__main">
                     <div class="card__slides">
-                        <img class="" src="./images/thumbnails/c1.jpg" alt="slides img">
+                        <img class="" src="./imgs/Caricature/chef-cartoon-vector_23-2147498360.jpg" alt="slides img">
                         <div class="card__slides__overlay">
-                            <div class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center" >
-                            <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
-                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a class="btn btn-outline-light btn-sm" onclick="popupTogglerFunc('./images/content/c1.jpg')">Click Me</a>
-                             </div>
+                            <div
+                                class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center">
+                                <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
+                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit.</p>
+                                <a class="btn btn-outline-light btn-sm"
+                                    onclick="popupTogglerFunc('./imgs/Caricature/chef-cartoon-vector_23-2147498360.jpg')">Click
+                                    Me</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -310,12 +351,18 @@
             <li class="item-b">
                 <div class="card__slides__main">
                     <div class="card__slides">
-                        <img class="" src="./images/thumbnails/c2.jpg" alt="slides img">
+                        <img class=""
+                            src="./imgs/Caricature/cruise-ship-plane-travel-vector-illustration-with-large-passenger-cruise-liner-voyage-across-ocean-tropical-summer-vacation-plane-flying-overhead-with-copyspace-text_1284-43948.jpg"
+                            alt="slides img">
                         <div class="card__slides__overlay">
-                            <div class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center" >
+                            <div
+                                class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center">
                                 <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
-                                    <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    <a class="btn btn-outline-light btn-sm" onclick="popupTogglerFunc('./images/content/c2.jpg')">Click Me</a>
+                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit.</p>
+                                <a class="btn btn-outline-light btn-sm"
+                                    onclick="popupTogglerFunc('./imgs/Caricature/cruise-ship-plane-travel-vector-illustration-with-large-passenger-cruise-liner-voyage-across-ocean-tropical-summer-vacation-plane-flying-overhead-with-copyspace-text_1284-43948.jpg')">Click
+                                    Me</a>
                             </div>
                         </div>
                     </div>
@@ -324,12 +371,16 @@
             <li class="item-c">
                 <div class="card__slides__main">
                     <div class="card__slides">
-                        <img class="" src="./images/thumbnails/c3.jpg" alt="slides img">
+                        <img class="" src="./imgs/Caricature/cute-set-faces-kawaii_24911-45406.jpg" alt="slides img">
                         <div class="card__slides__overlay">
-                            <div class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center" >
+                            <div
+                                class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center">
                                 <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
-                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a class="btn btn-outline-light btn-sm" onclick="popupTogglerFunc('./images/content/c3.jpg')">Click Me</a>
+                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit.</p>
+                                <a class="btn btn-outline-light btn-sm"
+                                    onclick="popupTogglerFunc('./imgs/Caricature/cute-set-faces-kawaii_24911-45406.jpg')">Click
+                                    Me</a>
                             </div>
                         </div>
                     </div>
@@ -338,12 +389,18 @@
             <li class="item-d">
                 <div class="card__slides__main">
                     <div class="card__slides">
-                        <img class="" src="./images/thumbnails/c4.jpg" alt="slides img">
+                        <img class=""
+                            src="./imgs/Caricature/four-squares-cartoon-homeless-people-icon-set-with-they-need-help-voluntary-other-descriptions_1284-33042.jpg"
+                            alt="slides img">
                         <div class="card__slides__overlay">
-                            <div class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center" >
+                            <div
+                                class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center">
                                 <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
-                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a class="btn btn-outline-light btn-sm" onclick="popupTogglerFunc('./images/content/c4.jpg')">Click Me</a>
+                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit.</p>
+                                <a class="btn btn-outline-light btn-sm"
+                                    onclick="popupTogglerFunc('./imgs/Caricature/four-squares-cartoon-homeless-people-icon-set-with-they-need-help-voluntary-other-descriptions_1284-33042.jpg')">Click
+                                    Me</a>
                             </div>
                         </div>
                     </div>
@@ -352,12 +409,15 @@
             <li class="item-e">
                 <div class="card__slides__main">
                     <div class="card__slides">
-                        <img class="" src="./images/thumbnails/c5.jpg" alt="slides img">
+                        <img class="" src="./imgs/Caricature/happy-businessman-cartoon_1012-180.jpg" alt="slides img">
                         <div class="card__slides__overlay">
-                            <div class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center" >
+                            <div
+                                class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center">
                                 <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
-                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a class="btn btn-outline-light btn-sm" onclick="popupTogglerFunc('./images/content/c5.jpg')">Click Me</a>
+                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit.</p>
+                                <a class="btn btn-outline-light btn-sm"
+                                    onclick="popupTogglerFunc('./imgs/Caricature/happy-businessman-cartoon_1012-180.jpg')">Click Me</a>
                             </div>
                         </div>
                     </div>
@@ -366,12 +426,17 @@
             <li class="item-f">
                 <div class="card__slides__main">
                     <div class="card__slides">
-                        <img class="" src="./images/thumbnails/c6.jpg" alt="slides img">
+                        <img class="" src="./imgs/Caricature/office-man-character-illustration_1284-51982.jpg"
+                            alt="slides img">
                         <div class="card__slides__overlay">
-                            <div class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center" >
+                            <div
+                                class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center">
                                 <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
-                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a class="btn btn-outline-light btn-sm" onclick="popupTogglerFunc('./images/content/c6.jpg')">Click Me</a>
+                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit.</p>
+                                <a class="btn btn-outline-light btn-sm"
+                                    onclick="popupTogglerFunc('./imgs/Caricature/office-man-character-illustration_1284-51982.jpg')">Click
+                                    Me</a>
                             </div>
                         </div>
                     </div>
@@ -383,19 +448,23 @@
     <!-- Cards Slider End -->
     <!-- Cards Slider Start 3 -->
     <div id="card__slider__3" class="dashboard__slider containers my-5 py-4">
-        <p class="dashboard__slider__title display-4 text-center">Heading Of Slider</p>
-        <p class="dashboard__slider__subTitle lead text-center w-75 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, obcaecati voluptatem! Eius dolorum placeat architecto.</p>
+        <p class="dashboard__slider__title display-4 text-center">Publications Graphics</p>
+        <p class="dashboard__slider__subTitle lead text-center w-75 mx-auto">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Voluptate, obcaecati voluptatem! Eius dolorum placeat architecto.</p>
         <ul id="autoWidth3" class="cs-hidden">
             <li class="item-a">
                 <div class="card__slides__main">
                     <div class="card__slides">
-                        <img class="" src="./images/thumbnails/c1.jpg" alt="slides img">
+                        <img class="" src="./imgs/publication graphics/abstract-business-commercial-flyer_1435-1190.jpg" alt="slides img">
                         <div class="card__slides__overlay">
-                            <div class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center" >
-                            <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
-                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a class="btn btn-outline-light btn-sm" onclick="popupTogglerFunc('./images/content/c1.jpg')">Click Me</a>
-                             </div>
+                            <div
+                                class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center">
+                                <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
+                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit.</p>
+                                <a class="btn btn-outline-light btn-sm"
+                                    onclick="popupTogglerFunc('./imgs/publication graphics/abstract-business-commercial-flyer_1435-1190.jpg')">Click Me</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -403,12 +472,15 @@
             <li class="item-b">
                 <div class="card__slides__main">
                     <div class="card__slides">
-                        <img class="" src="./images/thumbnails/c2.jpg" alt="slides img">
+                        <img class="" src="./imgs/publication graphics/brochure-template-design_1207-495.jpg" alt="slides img">
                         <div class="card__slides__overlay">
-                            <div class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center" >
+                            <div
+                                class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center">
                                 <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
-                                    <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    <a class="btn btn-outline-light btn-sm" onclick="popupTogglerFunc('./images/content/c2.jpg')">Click Me</a>
+                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit.</p>
+                                <a class="btn btn-outline-light btn-sm"
+                                    onclick="popupTogglerFunc('./imgs/publication graphics/brochure-template-design_1207-495.jpg')">Click Me</a>
                             </div>
                         </div>
                     </div>
@@ -417,12 +489,15 @@
             <li class="item-c">
                 <div class="card__slides__main">
                     <div class="card__slides">
-                        <img class="" src="./images/thumbnails/c3.jpg" alt="slides img">
+                        <img class="" src="./imgs/publication graphics/colorful-vector-business-brochure-template-design_1340-9021.jpg" alt="slides img">
                         <div class="card__slides__overlay">
-                            <div class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center" >
+                            <div
+                                class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center">
                                 <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
-                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a class="btn btn-outline-light btn-sm" onclick="popupTogglerFunc('./images/content/c3.jpg')">Click Me</a>
+                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit.</p>
+                                <a class="btn btn-outline-light btn-sm"
+                                    onclick="popupTogglerFunc('./imgs/publication graphics/colorful-vector-business-brochure-template-design_1340-9021.jpg')">Click Me</a>
                             </div>
                         </div>
                     </div>
@@ -431,12 +506,15 @@
             <li class="item-d">
                 <div class="card__slides__main">
                     <div class="card__slides">
-                        <img class="" src="./images/thumbnails/c4.jpg" alt="slides img">
+                        <img class="" src="./imgs/publication graphics/colorful-vector-business-brochure-template-design_1340-9060.jpg" alt="slides img">
                         <div class="card__slides__overlay">
-                            <div class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center" >
+                            <div
+                                class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center">
                                 <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
-                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a class="btn btn-outline-light btn-sm" onclick="popupTogglerFunc('./images/content/c4.jpg')">Click Me</a>
+                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit.</p>
+                                <a class="btn btn-outline-light btn-sm"
+                                    onclick="popupTogglerFunc('./imgs/publication graphics/colorful-vector-business-brochure-template-design_1340-9060.jpg')">Click Me</a>
                             </div>
                         </div>
                     </div>
@@ -445,12 +523,15 @@
             <li class="item-e">
                 <div class="card__slides__main">
                     <div class="card__slides">
-                        <img class="" src="./images/thumbnails/c5.jpg" alt="slides img">
+                        <img class="" src="./imgs/publication graphics/marble-texture-business-brochure-design_1340-9090.jpg" alt="slides img">
                         <div class="card__slides__overlay">
-                            <div class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center" >
+                            <div
+                                class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center">
                                 <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
-                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a class="btn btn-outline-light btn-sm" onclick="popupTogglerFunc('./images/content/c5.jpg')">Click Me</a>
+                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit.</p>
+                                <a class="btn btn-outline-light btn-sm"
+                                    onclick="popupTogglerFunc('./imgs/publication graphics/marble-texture-business-brochure-design_1340-9090.jpg')">Click Me</a>
                             </div>
                         </div>
                     </div>
@@ -459,12 +540,15 @@
             <li class="item-f">
                 <div class="card__slides__main">
                     <div class="card__slides">
-                        <img class="" src="./images/thumbnails/c6.jpg" alt="slides img">
+                        <img class="" src="./imgs/publication graphics/marble-texture-business-brochure-design_1340-9107.jpg" alt="slides img">
                         <div class="card__slides__overlay">
-                            <div class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center" >
+                            <div
+                                class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center">
                                 <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
-                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a class="btn btn-outline-light btn-sm" onclick="popupTogglerFunc('./images/content/c6.jpg')">Click Me</a>
+                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit.</p>
+                                <a class="btn btn-outline-light btn-sm"
+                                    onclick="popupTogglerFunc('./imgs/publication graphics/marble-texture-business-brochure-design_1340-9107.jpg')">Click Me</a>
                             </div>
                         </div>
                     </div>
@@ -476,19 +560,23 @@
     <!-- Cards Slider End -->
     <!-- Cards Slider Start 4 -->
     <div id="card__slider__4" class="dashboard__slider containers my-5 py-4">
-        <p class="dashboard__slider__title display-4 text-center">Heading Of Slider</p>
-        <p class="dashboard__slider__subTitle lead text-center w-75 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, obcaecati voluptatem! Eius dolorum placeat architecto.</p>
+        <p class="dashboard__slider__title display-4 text-center">Visual Identity</p>
+        <p class="dashboard__slider__subTitle lead text-center w-75 mx-auto">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Voluptate, obcaecati voluptatem! Eius dolorum placeat architecto.</p>
         <ul id="autoWidth4" class="cs-hidden">
             <li class="item-a">
                 <div class="card__slides__main">
                     <div class="card__slides">
-                        <img class="" src="./images/thumbnails/c1.jpg" alt="slides img">
+                        <img class="" src="./imgs/visual identity/bakery-identity-mock-up_23-2147492993.jpg" alt="slides img">
                         <div class="card__slides__overlay">
-                            <div class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center" >
-                            <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
-                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a class="btn btn-outline-light btn-sm" onclick="popupTogglerFunc('./images/content/c1.jpg')">Click Me</a>
-                             </div>
+                            <div
+                                class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center">
+                                <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
+                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit.</p>
+                                <a class="btn btn-outline-light btn-sm"
+                                    onclick="popupTogglerFunc('./imgs/visual identity/bakery-identity-mock-up_23-2147492993.jpg')">Click Me</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -496,12 +584,15 @@
             <li class="item-b">
                 <div class="card__slides__main">
                     <div class="card__slides">
-                        <img class="" src="./images/thumbnails/c2.jpg" alt="slides img">
+                        <img class="" src="./imgs/visual identity/bakery-pastry-shop-visual-corporate-identity-blank-template-items-collection_1284-14158.jpg" alt="slides img">
                         <div class="card__slides__overlay">
-                            <div class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center" >
+                            <div
+                                class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center">
                                 <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
-                                    <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    <a class="btn btn-outline-light btn-sm" onclick="popupTogglerFunc('./images/content/c2.jpg')">Click Me</a>
+                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit.</p>
+                                <a class="btn btn-outline-light btn-sm"
+                                    onclick="popupTogglerFunc('./imgs/visual identity/bakery-pastry-shop-visual-corporate-identity-blank-template-items-collection_1284-14158.jpg')">Click Me</a>
                             </div>
                         </div>
                     </div>
@@ -510,12 +601,15 @@
             <li class="item-c">
                 <div class="card__slides__main">
                     <div class="card__slides">
-                        <img class="" src="./images/thumbnails/c3.jpg" alt="slides img">
+                        <img class="" src="./imgs/visual identity/corporate-envelope-letter-templates_53876-67791.jpg" alt="slides img">
                         <div class="card__slides__overlay">
-                            <div class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center" >
+                            <div
+                                class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center">
                                 <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
-                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a class="btn btn-outline-light btn-sm" onclick="popupTogglerFunc('./images/content/c3.jpg')">Click Me</a>
+                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit.</p>
+                                <a class="btn btn-outline-light btn-sm"
+                                    onclick="popupTogglerFunc('./imgs/visual identity/corporate-envelope-letter-templates_53876-67791.jpg')">Click Me</a>
                             </div>
                         </div>
                     </div>
@@ -524,12 +618,15 @@
             <li class="item-d">
                 <div class="card__slides__main">
                     <div class="card__slides">
-                        <img class="" src="./images/thumbnails/c4.jpg" alt="slides img">
+                        <img class="" src="./imgs/visual identity/flat-lay-business-card-with-braille-envelope_23-2148811299.jpg" alt="slides img">
                         <div class="card__slides__overlay">
-                            <div class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center" >
+                            <div
+                                class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center">
                                 <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
-                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a class="btn btn-outline-light btn-sm" onclick="popupTogglerFunc('./images/content/c4.jpg')">Click Me</a>
+                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit.</p>
+                                <a class="btn btn-outline-light btn-sm"
+                                    onclick="popupTogglerFunc('./imgs/visual identity/flat-lay-business-card-with-braille-envelope_23-2148811299.jpg')">Click Me</a>
                             </div>
                         </div>
                     </div>
@@ -538,12 +635,15 @@
             <li class="item-e">
                 <div class="card__slides__main">
                     <div class="card__slides">
-                        <img class="" src="./images/thumbnails/c5.jpg" alt="slides img">
+                        <img class="" src="./imgs/visual identity/identity-technology-set_1284-10818.jpg" alt="slides img">
                         <div class="card__slides__overlay">
-                            <div class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center" >
+                            <div
+                                class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center">
                                 <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
-                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a class="btn btn-outline-light btn-sm" onclick="popupTogglerFunc('./images/content/c5.png')">Click Me</a>
+                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit.</p>
+                                <a class="btn btn-outline-light btn-sm"
+                                    onclick="popupTogglerFunc('./imgs/visual identity/identity-technology-set_1284-10818.jpg')">Click Me</a>
                             </div>
                         </div>
                     </div>
@@ -552,12 +652,15 @@
             <li class="item-f">
                 <div class="card__slides__main">
                     <div class="card__slides">
-                        <img class="" src="./images/thumbnails/c6.jpg" alt="slides img">
+                        <img class="" src="./imgs/visual identity/polygonal-brochure-template_23-2147493169.jpg" alt="slides img">
                         <div class="card__slides__overlay">
-                            <div class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center" >
+                            <div
+                                class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center">
                                 <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
-                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a class="btn btn-outline-light btn-sm" onclick="popupTogglerFunc('./images/content/c6.jpg')">Click Me</a>
+                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur
+                                    adipisicing elit.</p>
+                                <a class="btn btn-outline-light btn-sm"
+                                    onclick="popupTogglerFunc('./imgs/visual identity/polygonal-brochure-template_23-2147493169.jpg')">Click Me</a>
                             </div>
                         </div>
                     </div>
@@ -567,221 +670,136 @@
         </ul>
     </div>
     <!-- Cards Slider End -->
-    <!-- Cards Slider Start 5 -->
-    <div id="card__slider__5" class="dashboard__slider containers my-5 py-4">
-        <p class="dashboard__slider__title display-4 text-center">Heading Of Slider</p>
-        <p class="dashboard__slider__subTitle lead text-center w-75 mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, obcaecati voluptatem! Eius dolorum placeat architecto.</p>
-        <ul id="autoWidth5" class="cs-hidden">
-            <li class="item-a">
-                <div class="card__slides__main">
-                    <div class="card__slides">
-                        <img class="" src="./images/thumbnails/c1.jpg" alt="slides img">
-                        <div class="card__slides__overlay">
-                            <div class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center" >
-                            <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
-                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a class="btn btn-outline-light btn-sm" onclick="popupTogglerFunc('./images/content/c1.jpg')">Click Me</a>
-                             </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li class="item-b">
-                <div class="card__slides__main">
-                    <div class="card__slides">
-                        <img class="" src="./images/thumbnails/c2.jpg" alt="slides img">
-                        <div class="card__slides__overlay">
-                            <div class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center" >
-                                <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
-                                    <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    <a class="btn btn-outline-light btn-sm" onclick="popupTogglerFunc('./images/content/c2.jpg')">Click Me</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li class="item-c">
-                <div class="card__slides__main">
-                    <div class="card__slides">
-                        <img class="" src="./images/thumbnails/c3.jpg" alt="slides img">
-                        <div class="card__slides__overlay">
-                            <div class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center" >
-                                <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
-                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a class="btn btn-outline-light btn-sm" onclick="popupTogglerFunc('./images/content/c3.jpg')">Click Me</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li class="item-d">
-                <div class="card__slides__main">
-                    <div class="card__slides">
-                        <img class="" src="./images/thumbnails/c4.jpg" alt="slides img">
-                        <div class="card__slides__overlay">
-                            <div class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center" >
-                                <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
-                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a class="btn btn-outline-light btn-sm" onclick="popupTogglerFunc('./images/content/c4.jpg')">Click Me</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li class="item-e">
-                <div class="card__slides__main">
-                    <div class="card__slides">
-                        <img class="" src="./images/thumbnails/c5.jpg" alt="slides img">
-                        <div class="card__slides__overlay">
-                            <div class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center" >
-                                <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
-                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a class="btn btn-outline-light btn-sm" onclick="popupTogglerFunc('./images/content/c5.png')">Click Me</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li class="item-f">
-                <div class="card__slides__main">
-                    <div class="card__slides">
-                        <img class="" src="./images/thumbnails/c6.jpg" alt="slides img">
-                        <div class="card__slides__overlay">
-                            <div class="card__slider__content px-3 py-2 d-flex flex-column justify-content-start align-items-center" >
-                                <h4 class="h4 mb-2 card__slides__content__title"> Residual income 1</h4>
-                                <p class="lead card__slides__content__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                <a class="btn btn-outline-light btn-sm" onclick="popupTogglerFunc('./images/content/c6.jpg')">Click Me</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </li>
 
-        </ul>
-    </div>
     <!-- Cards Slider End -->
     <!-- Profile Start -->
     <div class="containers my-5">
         <!-- Slider With Controls And Indicators And Caption -->
         <div class="carousel slide mb-4 profile__main__slides" id="slider1Profile" data-ride="carousel">
-           <!-- Indicators -->
-           <ol class="carousel-indicators">
-               <li class="d-none d-md-block active" data-slide-to="0" data-target="#slider1Profile"></li>
-               <li class="d-none d-md-block" data-slide-to="1" data-target="#slider1Profile"></li>
-               <li class="d-none d-md-block" data-slide-to="2" data-target="#slider1Profile"></li>                  
-           </ol>
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li class="d-none d-md-block active" data-slide-to="0" data-target="#slider1Profile"></li>
+                <li class="d-none d-md-block" data-slide-to="1" data-target="#slider1Profile"></li>
+                <li class="d-none d-md-block" data-slide-to="2" data-target="#slider1Profile"></li>
+            </ol>
 
-           <div class="carousel-inner border-radius-3rm mb-5">
-               <div class="carousel-item profile__slidees active">
-                  
-                   <div class="profile__slider__content rounded">
-                       <div class="profile__slider__card__img__heaing row">
-                          <div class="col-3 col-md-4 col-lg-3 pl-lg-4 pl-auto">
-                               <img class="profile__card__img" src="./images/img/c1-pres-bg.jpg" alt="">
-                          
-                          </div>
-                          <div class="col-9 col-md-8 col-lg-8  d-flex flex-column justify-content-center">
-                               <h1 class="profile__card__title">Lorem ipsum dolor sit amet consectetur!</h1>
-                               <h2 class="profile__card__sub__title lead">Lorem ipsum dolor sit amet </h2>
-                          </div>
-                       </div>
-                       <p class="profile__card__text w-100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur cupiditate mollitia possimus ex, suscipit at ad vel rerum iure, dolore cum! Fuga dolores quod qui culpa ratione deserunt officia sunt tenetur odio officiis commodi..</p>
-                       <div class="profile__star__rating__main">
-                           <span class="stars">
-                               <i class="fas fa-star"></i>
-                           </span>
-                           <span class="stars">    
-                               <i class="fas fa-star"></i>
-                           </span>
-                           <span class="stars">
-                               <i class="fas fa-star"></i>
-                           </span>
-                           <span class="stars">
-                               <i class="fas fa-star"></i>
-                           </span>
-                           <span class="stars">
-                               <i class="fas fa-star"></i>
-                           </span>
-                       </div>
-                   </div>
-                   
-               </div>
-               <div class="carousel-item profile__slidees">
-                  
-                   <div class="profile__slider__content rounded">
-                       <div class="profile__slider__card__img__heaing row">
-                           <div class="col-3 col-md-4 col-lg-3  pl-lg-4 pl-auto">
-                                <img class="profile__card__img" src="./images/img/c1-pres-bg.jpg" alt="">
-                           </div>
-                           <div class="col-9 col-md-8 col-lg-8 d-flex flex-column justify-content-center">
-                                <h1 class="profile__card__title">Lorem ipsum dolor sit amet consectetur!</h1>
-                                <h2 class="profile__card__sub__title lead">Lorem ipsum dolor sit amet </h2>
-                           </div>
-                        </div>
-                       <p class="profile__card__text w-100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur cupiditate mollitia possimus ex, suscipit at ad vel rerum iure, dolore cum! Fuga dolores quod qui culpa ratione deserunt officia sunt tenetur odio officiis commodi.</p>
-                       <div class="profile__star__rating__main">
-                           <span class="stars">
-                               <i class="fas fa-star"></i>
-                           </span>
-                           <span class="stars">    
-                               <i class="fas fa-star"></i>
-                           </span>
-                           <span class="stars">
-                               <i class="fas fa-star"></i>
-                           </span> 
-                           <span class="stars">
-                               <i class="fas fa-star"></i>
-                           </span>
-                           <span class="stars">
-                               <i class="fas fa-star"></i>
-                           </span>
-                       </div>
-                   </div>
-               </div>
-               <div class="carousel-item profile__slidees">
-                  
-                   <div class="profile__slider__content rounded">
-                       <div class="profile__slider__card__img__heaing row">
-                           <div class="col-3 pl-none  col-md-4 col-lg-3 pl-lg-4 pl-auto">
-                                <img class="profile__card__img" src="./images/img/c1-pres-bg.jpg" alt="">
-                           
-                           </div>
-                           <div class="col-9 pl-none col-md-8 col-lg-8 d-flex flex-column justify-content-center">
-                                <h1 class="profile__card__title">Lorem ipsum dolor sit amet consectetur!</h1>
-                                <h2 class="profile__card__sub__title lead">Lorem ipsum dolor sit amet </h2>
-                           </div>
-                        </div>
-                       <p class="profile__card__text w-100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur cupiditate mollitia possimus ex, suscipit at ad vel rerum iure, dolore cum! Fuga dolores quod qui culpa ratione deserunt officia sunt tenetur odio officiis commodi.</p>
-                       <div class="profile__star__rating__main">
-                           <span class="stars">
-                               <i class="fas fa-star"></i>
-                           </span>
-                           <span class="stars">    
-                               <i class="fas fa-star"></i>
-                           </span>
-                           <span class="stars">
-                               <i class="fas fa-star"></i>
-                           </span>
-                           <span class="stars">
-                               <i class="fas fa-star"></i>
-                           </span>
-                           <span class="stars">
-                               <i class="fas fa-star"></i>
-                           </span>
-                       </div>
-                   </div>
-               </div>
-           </div>
+            <div class="carousel-inner border-radius-3rm mb-5">
+                <div class="carousel-item profile__slidees active">
 
-           <!-- Controls -->
-           <a href="#slider1Profile" class="carousel-control-prev carousel-a" data-slide="prev">
-               <span class="carousel-control-prev-icon"></span>
-           </a>
-           <a href="#slider1Profile" class="carousel-control-next carousel-a" data-slide="next">
-               <span class="carousel-control-next-icon"></span>
-           </a>
+                    <div class="profile__slider__content rounded">
+                        <div class="profile__slider__card__img__heaing row">
+                            <div class="col-3 col-md-4 col-lg-3 pl-lg-4 pl-auto">
+                                <img class="profile__card__img" src="./imgs/person-1.jpg" alt="">
+
+                            </div>
+                            <div class="col-9 col-md-8 col-lg-8  d-flex flex-column justify-content-center">
+                                <h1 class="profile__card__title">John Doe!</h1>
+                                <h2 class="profile__card__sub__title lead">Reviews Of Our Clients </h2>
+                            </div>
+                        </div>
+                        <p class="profile__card__text w-100">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Consectetur cupiditate mollitia possimus ex, suscipit at ad vel rerum iure, dolore cum! Fuga
+                            dolores quod qui culpa ratione deserunt officia sunt tenetur odio officiis commodi..</p>
+                        <div class="profile__star__rating__main">
+                            <span class="stars">
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <span class="stars">
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <span class="stars">
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <span class="stars">
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <span class="stars">
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="carousel-item profile__slidees">
+
+                    <div class="profile__slider__content rounded">
+                        <div class="profile__slider__card__img__heaing row">
+                            <div class="col-3 col-md-4 col-lg-3  pl-lg-4 pl-auto">
+                                <img class="profile__card__img" src="./imgs/person-1.jpg" alt="">
+                            </div>
+                            <div class="col-9 col-md-8 col-lg-8 d-flex flex-column justify-content-center">
+                                <h1 class="profile__card__title">Glenn MC</h1>
+                                <h2 class="profile__card__sub__title lead">Reviews Of Our Clients</h2>
+                            </div>
+                        </div>
+                        <p class="profile__card__text w-100">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Consectetur cupiditate mollitia possimus ex, suscipit at ad vel rerum iure, dolore cum! Fuga
+                            dolores quod qui culpa ratione deserunt officia sunt tenetur odio officiis commodi.</p>
+                        <div class="profile__star__rating__main">
+                            <span class="stars">
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <span class="stars">
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <span class="stars">
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <span class="stars">
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <span class="stars">
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item profile__slidees">
+
+                    <div class="profile__slider__content rounded">
+                        <div class="profile__slider__card__img__heaing row">
+                            <div class="col-3 pl-none  col-md-4 col-lg-3 pl-lg-4 pl-auto">
+                                <img class="profile__card__img" src="./imgs/person-1.jpg" alt="">
+
+                            </div>
+                            <div class="col-9 pl-none col-md-8 col-lg-8 d-flex flex-column justify-content-center">
+                                <h1 class="profile__card__title">Natasha!</h1>
+                                <h2 class="profile__card__sub__title lead"> Reviews Of Our Clients</h2>
+                            </div>
+                        </div>
+                        <p class="profile__card__text w-100">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Consectetur cupiditate mollitia possimus ex, suscipit at ad vel rerum iure, dolore cum! Fuga
+                            dolores quod qui culpa ratione deserunt officia sunt tenetur odio officiis commodi.</p>
+                        <div class="profile__star__rating__main">
+                            <span class="stars">
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <span class="stars">
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <span class="stars">
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <span class="stars">
+                                <i class="fas fa-star"></i>
+                            </span>
+                            <span class="stars">
+                                <i class="fas fa-star"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a href="#slider1Profile" class="carousel-control-prev carousel-a" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a href="#slider1Profile" class="carousel-control-next carousel-a" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
         </div>
-   </div>
+    </div>
     <!-- Profile End -->
 
     <!-- Card Start -->
@@ -791,9 +809,12 @@
             <div class="collection__content">
                 <h1 class="content__tittle font-weight-500">Home Electronics</h1>
                 <ul class="content__list ul-margin-paddding d-flex">
-                    <li class="content__item"><a class="content__link text-secondary text-nowrap" href="#">52 Items</a></li>
-                    <li class="content__item"><a class="content__link text-secondary text-nowrap" href="#">47 Ratings</a></li>
-                    <li class="content__item"><a class="content__link text-secondary text-nowrap" href="#">12K Reviews</a></li>
+                    <li class="content__item"><a class="content__link text-secondary text-nowrap">52 Items</a>
+                    </li>
+                    <li class="content__item"><a class="content__link text-secondary text-nowrap">47
+                            Ratings</a></li>
+                    <li class="content__item"><a class="content__link text-secondary text-nowrap">12K
+                            Reviews</a></li>
                 </ul>
                 <ul class="content__rating ul-margin-paddding rating--dark">
                     <li class="rating__item"><i class="fas fa-star"></i></li>
@@ -802,126 +823,238 @@
                     <li class="rating__item"><i class="fas fa-star"></i></li>
                 </ul>
 
-                <a class="content__arrow" href="#"><i class="fas fa-long-arrow-alt-right"></i></a>
+                <a class="content__arrow"><i class="fas fa-long-arrow-alt-right"></i></a>
+          <footer class="mt-5 mb-3">
+        <div id="Main-Footer" class="row">
+            <div class="cards col-6 col-md-2 mb-md-0 mb-5 text-center text-md-left">
+                <ul>
+                    <li>
+                        <a class=" font-weight-bold" href="_portfolio.html">Logo</a>
+                    </li>
+                    <li>
+                        <a class="">How it Works</a>
+                    </li>
+                    <li>
+                        <a class="">Features</a>
+                    </li>
+                    <li>
+                        <a class="">Pricing</a>
+                    </li>
+
+                </ul>
             </div>
-        </div>
-    </div>
-    <!-- Card End -->
-   <!-- Footer -->
-	<footer class="mt-5 mb-3">
-		<div id="Main-Footer" class="row">
-			<div class="cards col-6 col-md-2 mb-md-0 mb-5 text-center text-md-left" >
-				<ul>
-					<li>
-						<a class=" font-weight-bold" href="_portfolio.html">Logo</a>
-					</li>
-					<li>
-						<a class="" href="#">How it Works</a>
-					</li>
-					<li>
-						<a class="" href="#">Features</a>
-					</li>
-					<li>
-						<a class="" href="#">Pricing</a>
-					</li>
-					
-				</ul>
-			</div>
-			<div class="cards col-6 col-md-2  mb-md-0 mb-5 text-center text-md-left" >
-				<ul>
-					<li>
-						<a class=" font-weight-bold" href="_portfolio.html">Package</a>
-					</li>
-					<li>
-						<a class="" href="#">How it Works</a>
-					</li>
-					<li>
-						<a class="" href="#">Features</a>
-					</li>
-					<li>
-						<a class="" href="#">Pricing</a>
-					</li>
-					
-				</ul>
-			</div>
-			<div class="cards col-6 col-md-2 text-center text-md-left" >
-				<ul>
-					<li>
-						<a class=" font-weight-bold" href="_portfolio.html">Branding</a>
-					</li>
-					<li>
-						<a class="" href="#">How it Works</a>
-					</li>
-					<li>
-						<a class="" href="#">Features</a>
-					</li>
-					<li>
-						<a class="" href="#">Pricing</a>
-					</li>
-					
-				</ul>
-			</div>
-			<div class="cards col-6 col-md-2 text-center text-md-left" >
-				<ul>
-					<li>
-						<a class=" font-weight-bold" href="_portfolio.html">UI</a>
-					</li>
-					<li>
-						<a class="" href="#">How it Works</a>
-					</li>
-					<li>
-						<a class="" href="#">Features</a>
-					</li>
-					<li>
-						<a class="" href="#">Pricing</a>
-					</li>
-					
-				</ul>
-			</div>
-			<div class="cards col-12 col-md-2 text-center  mt-md-0 mt-5 " >
-				<a class=" font-weight-bold" href="#">
-					Social Media
-				</a>
-				<ul class="social ">
+            <div class="cards col-6 col-md-2  mb-md-0 mb-5 text-center text-md-left">
+                <ul>
+                    <li>
+                        <a class=" font-weight-bold" href="_portfolio.html">Caricature</a>
+                    </li>
+                    <li>
+                        <a class="">How it Works</a>
+                    </li>
+                    <li>
+                        <a class="">Features</a>
+                    </li>
+                    <li>
+                        <a class="">Pricing</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="cards col-6 col-md-2 text-center text-md-left">
+                <ul>
+                    <li>
+                        <a class=" font-weight-bold" href="_portfolio.html">Graphics</a>
+                    </li>
+                    <li>
+                        <a class="">How it Works</a>
+                    </li>
+                    <li>
+                        <a class="">Features</a>
+                    </li>
+                    <li>
+                        <a class="">Pricing</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="cards col-6 col-md-2 text-center text-md-left">
+                <ul>
+                    <li>
+                        <a class=" font-weight-bold" href="_portfolio.html">Visual Identity</a>
+                    </li>
+                    <li>
+                        <a class="">How it Works</a>
+                    </li>
+                    <li>
+                        <a class="">Features</a>
+                    </li>
+                    <li>
+                        <a class="">Pricing</a>
+                    </li>
+
+                </ul>
+            </div>
+            <div class="cards col-12 col-md-2 text-center  mt-md-0 mt-5 ">
+                <a class=" font-weight-bold">
+                    Social Media
+                </a>
+                <ul class="social ">
                     <li><i class="fab fa-facebook-square"></i></li>
                     <li><i class="fab fa-twitter-square"></i></li>
                     <li><i class="fab fa-whatsapp-square"></i></li>
                     <li><i class="fab fa-instagram-square"></i></li>
                 </ul>
-			</div>
+            </div>
+        </div>
+    </footer>
+    <div id="footer-bootom" class="my-4">
+        <div>
+            <ul>
+                <li>
+                    <a class=" font-weight-bold" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class=" font-weight-bold" href="_portfolio.html">Porfolio</a>
+                </li>
+                <li>
+                    <a class=" font-weight-bold" href="_services.html">Services</a>
+                </li>
+                <li>
+                    <a class=" font-weight-bold" href="_about_us.html">About</a>
+                </li>
+            </ul>
+        </div>
+        <div class=" font-weight-bold mb-5">
+            <ul>
+                <li>
+                    2018 - Form
+                </li>
+                <li>
+                    All right reserved
+                </li>
+            </ul>
+        </div>
+
+    </div>    </div>
+        </div>
+    </div>
+    <!-- Card End -->
+    <!-- Footer -->
+  	<!-- Footer -->
+      <footer class="mt-5 mb-3">
+		<div id="Main-Footer" class="row">
+				<div class="cards col-6 col-md-2 mb-md-0 mb-5 text-center text-md-left">
+						<ul>
+								<li>
+										<a class=" font-weight-bold" href="_portfolio.html">Logo</a>
+								</li>
+								<li>
+										<a class="">How it Works</a>
+								</li>
+								<li>
+										<a class="">Features</a>
+								</li>
+								<li>
+										<a class="">Pricing</a>
+								</li>
+
+						</ul>
+				</div>
+				<div class="cards col-6 col-md-2  mb-md-0 mb-5 text-center text-md-left">
+						<ul>
+								<li>
+										<a class=" font-weight-bold" href="_portfolio.html">Caricature</a>
+								</li>
+								<li>
+										<a class="">How it Works</a>
+								</li>
+								<li>
+										<a class="">Features</a>
+								</li>
+								<li>
+										<a class="">Pricing</a>
+								</li>
+
+						</ul>
+				</div>
+				<div class="cards col-6 col-md-2 text-center text-md-left">
+						<ul>
+								<li>
+										<a class=" font-weight-bold" href="_portfolio.html">Graphics</a>
+								</li>
+								<li>
+										<a class="">How it Works</a>
+								</li>
+								<li>
+										<a class="">Features</a>
+								</li>
+								<li>
+										<a class="">Pricing</a>
+								</li>
+
+						</ul>
+				</div>
+				<div class="cards col-6 col-md-2 text-center text-md-left">
+						<ul>
+								<li>
+										<a class=" font-weight-bold" href="_portfolio.html">Visual Identity</a>
+								</li>
+								<li>
+										<a class="">How it Works</a>
+								</li>
+								<li>
+										<a class="">Features</a>
+								</li>
+								<li>
+										<a class="">Pricing</a>
+								</li>
+
+						</ul>
+				</div>
+				<div class="cards col-12 col-md-2 text-center  mt-md-0 mt-5 ">
+						<a class=" font-weight-bold">
+								Social Media
+						</a>
+						<ul class="social ">
+								<li><i class="fab fa-facebook-square"></i></li>
+								<li><i class="fab fa-twitter-square"></i></li>
+								<li><i class="fab fa-whatsapp-square"></i></li>
+								<li><i class="fab fa-instagram-square"></i></li>
+						</ul>
+				</div>
 		</div>
-	</footer>
-	<div id="footer-bootom" class="my-4">
+</footer>
+<div id="footer-bootom" class="my-4">
 		<div>
-			<ul>
-				<li>
-					<a class=" font-weight-bold" href="index.html">Home</a>
-				</li>
-				<li>
-					<a class=" font-weight-bold" href="_portfolio.html">Porfolio</a>
-				</li>
-				<li>
-					<a class=" font-weight-bold" href="_services.html">Services</a>
-				</li>
-				<li>
-					<a class=" font-weight-bold" href="_about_us.html">About</a>
-				</li>
-			</ul>
+				<ul>
+						<li>
+								<a class=" font-weight-bold" href="index.html">Home</a>
+						</li>
+						<li>
+								<a class=" font-weight-bold" href="_portfolio.html">Porfolio</a>
+						</li>
+						<li>
+								<a class=" font-weight-bold" href="_services.html">Services</a>
+						</li>
+						<li>
+								<a class=" font-weight-bold" href="_about_us.html">About</a>
+						</li>
+				</ul>
 		</div>
 		<div class=" font-weight-bold mb-5">
-			<ul>
-				<li>
-					2018 - Form
-				</li>
-				<li>
-					All right reserved
-				</li>
-			</ul>
+				<ul>
+						<li>
+								2018 - Form
+						</li>
+						<li>
+								All right reserved
+						</li>
+				</ul>
 		</div>
 
-	</div>
-     <!-- Footer -->
-      <!-- Popup Detail Box -->
+</div>
+    <!-- Footer -->
+    <!-- Popup Detail Box -->
     <div class="popupdetail">
         <div class="popupDetal__close">
             <span onclick="popupTogglerFunc()">
@@ -937,14 +1070,14 @@
             </div>
             <div class="popup__socail">
                 <div class="main__services__social mt-5  mb-3 d-flex justify-content-center align-items-center">
-                    <div class="wrapper mt-5">	
+                    <div class="wrapper mt-5">
                         <div class="main__services__social__button" id="a">
                             <div class="icon">
                                 <img id="facebook" src="./images/img/facebook.png">
                                 <img id="facebookwhite" src="./images/img/facebookwhite.png">
                             </div>
                             <div>
-                                <a href="#">Contact </a>
+                                <a>Contact </a>
                             </div>
                         </div>
                         <div class="main__services__social__button" id="b">
@@ -953,9 +1086,9 @@
                                 <img id="fiverrwhite" src="./images/img/fiverrwhite.png">
                             </div>
                             <div>
-                                <a href="#">Order Now</a>
+                                <a>Order Now</a>
                             </div>
-                            
+
                         </div>
                         <div class="main__services__social__button" id="c">
                             <div class="icon">
@@ -963,7 +1096,7 @@
                                 <img id="whatsappwhite" src="./images/img/whatsappwhite.png">
                             </div>
                             <div>
-                                <a href="#">Contact</a>
+                                <a>Contact</a>
                             </div>
                         </div>
                     </div>
@@ -972,9 +1105,10 @@
         </div>
     </div>
     <!-- Popup Detail Box -->
-     <!-- js -->
+    <!-- js -->
     <script type="text/javascript" src="./js/script.js"></script>
     <script type="text/javascript" src="./js/jqueryup.js"></script>
-    
+
 </body>
+
 </html>

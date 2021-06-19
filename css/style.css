@@ -82,6 +82,7 @@ body{
     
        
     .profile__card__img {
+
         width: 8.5rem !important ;
         height: 8.5rem !important ;
     }
@@ -390,6 +391,7 @@ body{
     }
     .stars i{
         font-size: .5rem !important;
+        
     }
     .stars + .stars{
         margin-left: .4rem !important;
@@ -748,6 +750,7 @@ a{
     padding: 10px 0;
     font-weight: 500;
     line-height: 1;
+    cursor: pointer;
 }
 
 .header .menu > ul > li .sub-manu.mega-menu-column-4 > .list-item.text-center .tittle{
@@ -760,7 +763,9 @@ a{
     margin-top: 10px;
     vertical-align: middle;
 }
-
+.header .menu > ul > li .sub-manu.mega-menu > .list-item > ul > li > a{
+    cursor: not-allowed;
+}
 .header .menu > ul > li .sub-manu.mega-menu > .list-item > ul > li > a:hover,
 .header .menu > ul > li .sub-manu > ul > li > a:hover,
 .header .menu > ul > li:hover > a{
@@ -2034,6 +2039,7 @@ footer{
 	font-size: 0.9rem;
     text-align: left;
     color: var(--text-black);
+    cursor:not-allowed;
 }
 
 #Main-Footer > :nth-child(5){
@@ -2052,7 +2058,7 @@ footer{
 }
 .social li {
    font-size: 1.5rem;
-   cursor: pointer;
+   cursor: not-allowed;
    
 }
 .social li + li{
