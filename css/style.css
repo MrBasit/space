@@ -146,9 +146,9 @@ body{
     .portfolio__menu__items + .portfolio__menu__items{
         margin-top: 1rem;
     }
-    .portfolio__catagorie{
+    /* .portfolio__catagorie{
         text-align: center !important;
-    }
+    } */
     .portfolio__catagorie__icon{
         margin-left: 0;
         margin-right: 1;
