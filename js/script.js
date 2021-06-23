@@ -143,6 +143,6 @@ function popupTogglerFunc(path){
     const mainPopupBox = document.querySelector('.popupdetail');
     const img = document.querySelector('.popup__img__main img');
     img.src = path;
-    bodyScroll.classList.toggle('active');
+    // bodyScroll.classList.toggle('active');
     mainPopupBox.classList.toggle('active');
 }

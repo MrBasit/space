@@ -33,7 +33,7 @@
                 <!-- menu start here -->
                 <div class="header__item item--center">
                     <div class="menu-overlay">
-                        
+
                     </div>
                     <nav class="menu">
                         <div class="mobile-menu-head">
@@ -41,10 +41,10 @@
                                 <i class="fa fa-angle-left"></i>
                             </div>
                             <div class="current-menu-tittle">
-                              
+
                             </div>
                             <div class="mobile-menu-close">
-                               &times;
+                                &times;
                             </div>
                         </div>
                         <ul class="manu-main">
@@ -54,9 +54,10 @@
                             <li class="menu-item-has-children">
                                 <a href="#">Portfolio <i class="fas fa-angle-down"></i></a>
                                 <div class="sub-manu sub-manu mega-menu mega-menu-column-4">
-                                    
-                                    <div class="list-item">   
-                                        <a onclick="changeTabs('tab-1')" class="tittle portfolio__menu__items__menu ">Logo</a> 
+
+                                    <div class="list-item">
+                                        <a onclick="changeTabs2('tab-1')" href="_portfolio.html"
+                                            class="tittle portfolio__menu__items__menu ">Logo</a>
                                         <ul>
                                             <li>
                                                 <a href="#">Direct Income</a>
@@ -70,7 +71,8 @@
                                         </ul>
                                     </div>
                                     <div class="list-item">
-                                        <a onclick="changeTabs('tab-2')" class="tittle portfolio__menu__items__menu">Package</a>
+                                        <a onclick="changeTabs2('tab-2')" href="_portfolio.html"
+                                            class="tittle portfolio__menu__items__menu">Caricature</a>
                                         <ul>
                                             <li>
                                                 <a href="#">Create Id</a>
@@ -81,11 +83,12 @@
                                             <li>
                                                 <a href="#">Create Supporting Ids</a>
                                             </li>
-                                            
+
                                         </ul>
                                     </div>
                                     <div class="list-item">
-                                        <a onclick="changeTabs('tab-3')" class="tittle portfolio__menu__items__menu ">Branding</a>
+                                        <a onclick="changeTabs2('tab-3')" href="_portfolio.html"
+                                            class="tittle portfolio__menu__items__menu ">Graphics</a>
                                         <ul>
                                             <li>
                                                 <a href="#">Fund Transfer</a>
@@ -99,7 +102,8 @@
                                         </ul>
                                     </div>
                                     <div class="list-item">
-                                        <a onclick="changeTabs('tab-4')" class="tittle portfolio__menu__items__menu">UI</a>
+                                        <a onclick="changeTabs2('tab-4')" href="_portfolio.html"
+                                            class="tittle portfolio__menu__items__menu">Visual Identity</a>
                                         <ul>
                                             <li>
                                                 <a href="#">Fund Transfer</a>
@@ -112,7 +116,7 @@
                                             </li>
                                         </ul>
                                     </div>
-                                    
+
                                 </div>
                             </li>
                             <li>
@@ -121,6 +125,10 @@
                             <li>
                                 <a href="_about_us.html">About</a>
                             </li>
+
+
+
+
                         </ul>
                     </nav>
                 </div>
@@ -129,16 +137,16 @@
                     <div class="search-box">
                         <input type="text" name="search" placeholder="looking for ?">
                         <div class="search-btn">
-                           <i class="fas fa-search"></i>
+                            <i class="fas fa-search"></i>
                         </div>
                         <div class="cancel-btn">
                             <i class="fas fa-times"></i>
                         </div>
                         <div class="search-data">
-                            
+
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -155,17 +163,17 @@
                     <span class="portfolio__catagorie__icon"><i class="fab fa-reddit"></i></span><span class="portfolio__catagorie">Logo</span>
                 </li>
                 <li onclick="changeTabs('tab-2')" class="tab-2 portfolio__menu__items ">
-                    <span class="portfolio__catagorie__icon"><i class="fas fa-shipping-fast"></i></span><span class="portfolio__catagorie">Package</span>
+                    <span class="portfolio__catagorie__icon"><i class="fas fa-shipping-fast"></i></span><span class="portfolio__catagorie">Caricature</span>
                 </li>
                 <li onclick="changeTabs('tab-3')" class="portfolio__menu__items tab-3">
-                    <span class="portfolio__catagorie__icon"><i class="fas fa-snowboarding"></i></span><span class="portfolio__catagorie">Branding</span>
+                    <span class="portfolio__catagorie__icon"><i class="fas fa-snowboarding"></i></span><span class="portfolio__catagorie">Publications Graphics</span>
                 </li>
                 <li onclick="changeTabs('tab-4')" class="portfolio__menu__items tab-4">
-                    <span class="portfolio__catagorie__icon"><i class="fab fa-uikit"></i></span><span class="portfolio__catagorie">UI</span>
+                    <span class="portfolio__catagorie__icon"><i class="fab fa-uikit"></i></span><span class="portfolio__catagorie">Visual Identity</span>
                 </li>
             </ul>
         </div>
-        <div class="profile__content">
+        <div class="profile__content" id="logo">
             <div class="containers">
                 <div id="tab-1-content" class="portfolio__content__main active">
                     <div class="portfolio__content">
@@ -173,12 +181,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c1.jpg" alt="slides img">
+                                        <img class="" src="./imgs/LOGO/code-logo-template-gradient-design_23-2148810395.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c1.jpg')" data="">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/LOGO/code-logo-template-gradient-design_23-2148810395.jpg')" data="">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -187,12 +195,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c3.jpg" alt="slides img">
+                                        <img class="" src="./imgs/LOGO/flat-code-logo-collection_23-2148829940.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c3.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/LOGO/flat-code-logo-collection_23-2148829940.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -201,12 +209,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c4.jpg" alt="slides img">
+                                        <img class="" src="./imgs/LOGO/golden-bird-logo-design_1195-336.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c4.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/LOGO/golden-bird-logo-design_1195-336.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -215,12 +223,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c5.jpg" alt="slides img">
+                                        <img class="" src="./imgs/LOGO/illustration-photo-studio-stamp-banner_53876-6842.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c5.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/LOGO/illustration-photo-studio-stamp-banner_53876-6842.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -229,12 +237,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c6.jpg" alt="slides img">
+                                        <img class="" src="./imgs/LOGO/letter-r-luxury-brand-logo_1055-10194.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c6.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/LOGO/letter-r-luxury-brand-logo_1055-10194.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -243,12 +251,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c2.jpg" alt="slides img">
+                                        <img class="" src="./imgs/LOGO/logo-organic-restaurant_1071-147.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c2.jpg')" data="">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/LOGO/logo-organic-restaurant_1071-147.jpg')" data="">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -259,12 +267,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c1.jpg" alt="slides img">
+                                        <img class="" src="./imgs/LOGO/luxury-gold-template-monogram_1159-5727.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c1.jpg')" data="">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/LOGO/luxury-gold-template-monogram_1159-5727.jpg')" data="">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -273,12 +281,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c3.jpg" alt="slides img">
+                                        <img class="" src="./imgs/LOGO/premium-collection-badge-design_53876-63011.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c3.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/LOGO/premium-collection-badge-design_53876-63011.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -287,12 +295,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c4.jpg" alt="slides img">
+                                        <img class="" src="./imgs/LOGO/set-company-logo-design-ideas_53876-62861.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c4.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/LOGO/set-company-logo-design-ideas_53876-62861.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -301,12 +309,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c5.jpg" alt="slides img">
+                                        <img class="" src="./imgs/LOGO/flat-code-logo-collection_23-2148829940.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c5.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/LOGO/flat-code-logo-collection_23-2148829940.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -315,12 +323,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c6.jpg" alt="slides img">
+                                        <img class="" src="./imgs/LOGO/illustration-photo-studio-stamp-banner_53876-6842.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c6.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/LOGO/illustration-photo-studio-stamp-banner_53876-6842.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -329,12 +337,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c2.jpg" alt="slides img">
+                                        <img class="" src="./imgs/LOGO/logo-organic-restaurant_1071-147.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c2.jpg')" data="">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/LOGO/logo-organic-restaurant_1071-147.jpg')" data="">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -349,12 +357,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c1.jpg" alt="slides img">
+                                        <img class="" src="./imgs/Caricature/chef-cartoon-vector_23-2147498360.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c1.jpg')" data="">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/Caricature/chef-cartoon-vector_23-2147498360.jpg')" data="">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -363,12 +371,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c3.jpg" alt="slides img">
+                                        <img class="" src="./imgs/Caricature/cruise-ship-plane-travel-vector-illustration-with-large-passenger-cruise-liner-voyage-across-ocean-tropical-summer-vacation-plane-flying-overhead-with-copyspace-text_1284-43948.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c3.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/Caricature/cruise-ship-plane-travel-vector-illustration-with-large-passenger-cruise-liner-voyage-across-ocean-tropical-summer-vacation-plane-flying-overhead-with-copyspace-text_1284-43948.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -377,12 +385,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c4.jpg" alt="slides img">
+                                        <img class="" src="./imgs/Caricature/cute-set-faces-kawaii_24911-45406.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c4.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/Caricature/cute-set-faces-kawaii_24911-45406.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -391,12 +399,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c5.jpg" alt="slides img">
+                                        <img class="" src="./imgs/Caricature/four-squares-cartoon-homeless-people-icon-set-with-they-need-help-voluntary-other-descriptions_1284-33042.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c5.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/Caricature/four-squares-cartoon-homeless-people-icon-set-with-they-need-help-voluntary-other-descriptions_1284-33042.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -405,12 +413,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c6.jpg" alt="slides img">
+                                        <img class="" src="./imgs/Caricature/happy-businessman-cartoon_1012-180.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c6.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/Caricature/happy-businessman-cartoon_1012-180.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -419,12 +427,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c2.jpg" alt="slides img">
+                                        <img class="" src="./imgs/Caricature/office-man-character-illustration_1284-51982.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c2.jpg')" data="">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/Caricature/office-man-character-illustration_1284-51982.jpg')" data="">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -435,12 +443,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c1.jpg" alt="slides img">
+                                        <img class="" src="./imgs/Caricature/pop-art-young-woman-cartoon_18591-52671.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c1.jpg')" data="">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/Caricature/pop-art-young-woman-cartoon_18591-52671.jpg')" data="">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -449,12 +457,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c3.jpg" alt="slides img">
+                                        <img class="" src="./imgs/Caricature/vector-photographer-character-camera-professional-operator-correspondent-man-illustration_1284-42379.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c3.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/Caricature/vector-photographer-character-camera-professional-operator-correspondent-man-illustration_1284-42379.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -463,12 +471,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c4.jpg" alt="slides img">
+                                        <img class="" src="./imgs/Caricature/young-characters-cartoon-style_1196-544.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c4.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/Caricature/young-characters-cartoon-style_1196-544.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -477,12 +485,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c5.jpg" alt="slides img">
+                                        <img class="" src="./imgs/Caricature/cruise-ship-plane-travel-vector-illustration-with-large-passenger-cruise-liner-voyage-across-ocean-tropical-summer-vacation-plane-flying-overhead-with-copyspace-text_1284-43948.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c5.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/Caricature/cruise-ship-plane-travel-vector-illustration-with-large-passenger-cruise-liner-voyage-across-ocean-tropical-summer-vacation-plane-flying-overhead-with-copyspace-text_1284-43948.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -491,12 +499,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c6.jpg" alt="slides img">
+                                        <img class="" src="./imgs/Caricature/four-squares-cartoon-homeless-people-icon-set-with-they-need-help-voluntary-other-descriptions_1284-33042.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c6.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/Caricature/four-squares-cartoon-homeless-people-icon-set-with-they-need-help-voluntary-other-descriptions_1284-33042.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -505,12 +513,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c2.jpg" alt="slides img">
+                                        <img class="" src="./imgs/Caricature/office-man-character-illustration_1284-51982.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c2.jpg')" data="">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/Caricature/office-man-character-illustration_1284-51982.jpg')" data="">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -525,12 +533,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c1.jpg" alt="slides img">
+                                        <img class="" src="./imgs/publication graphics/abstract-business-commercial-flyer_1435-1190.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c1.jpg')" data="">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/publication graphics/abstract-business-commercial-flyer_1435-1190.jpg')" data="">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -539,12 +547,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c3.jpg" alt="slides img">
+                                        <img class="" src="./imgs/publication graphics/brochure-template-design_1207-495.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c3.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/publication graphics/brochure-template-design_1207-495.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -553,12 +561,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c4.jpg" alt="slides img">
+                                        <img class="" src="./imgs/publication graphics/colorful-vector-business-brochure-template-design_1340-9021.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c4.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/publication graphics/colorful-vector-business-brochure-template-design_1340-9021.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -567,12 +575,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c5.jpg" alt="slides img">
+                                        <img class="" src="./imgs/publication graphics/colorful-vector-business-brochure-template-design_1340-9060.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c5.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/publication graphics/colorful-vector-business-brochure-template-design_1340-9060.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -581,12 +589,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c6.jpg" alt="slides img">
+                                        <img class="" src="./imgs/publication graphics/marble-texture-business-brochure-design_1340-9090.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c6.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/publication graphics/marble-texture-business-brochure-design_1340-9090.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -595,12 +603,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c2.jpg" alt="slides img">
+                                        <img class="" src="./imgs/publication graphics/marble-texture-business-brochure-design_1340-9107.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c2.jpg')" data="">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/publication graphics/marble-texture-business-brochure-design_1340-9107.jpg')" data="">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -611,12 +619,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c1.jpg" alt="slides img">
+                                        <img class="" src="./imgs/publication graphics/modern-professional-brochure-business_1043-567.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c1.jpg')" data="">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/publication graphics/modern-professional-brochure-business_1043-567.jpg')" data="">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -625,12 +633,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c3.jpg" alt="slides img">
+                                        <img class="" src="./imgs/publication graphics/professional-brochure-multipurpose-business_1043-571.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c3.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/publication graphics/professional-brochure-multipurpose-business_1043-571.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -639,12 +647,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c4.jpg" alt="slides img">
+                                        <img class="" src="./imgs/publication graphics/world-economic-newspaper-composition_1284-19685.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c4.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/publication graphics/world-economic-newspaper-composition_1284-19685.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -653,12 +661,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c5.jpg" alt="slides img">
+                                        <img class="" src="./imgs/publication graphics/brochure-template-design_1207-495.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c5.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/publication graphics/brochure-template-design_1207-495.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -667,12 +675,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c6.jpg" alt="slides img">
+                                        <img class="" src="./imgs/publication graphics/colorful-vector-business-brochure-template-design_1340-9060.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c6.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/publication graphics/colorful-vector-business-brochure-template-design_1340-9060.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -681,12 +689,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c2.jpg" alt="slides img">
+                                        <img class="" src="./imgs/publication graphics/marble-texture-business-brochure-design_1340-9107.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c2.jpg')" data="">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/publication graphics/marble-texture-business-brochure-design_1340-9107.jpg')" data="">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -701,12 +709,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c1.jpg" alt="slides img">
+                                        <img class="" src="./imgs/visual identity/bakery-identity-mock-up_23-2147492993.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c1.jpg')" data="">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/visual identity/bakery-identity-mock-up_23-2147492993.jpg')" data="">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -715,12 +723,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c3.jpg" alt="slides img">
+                                        <img class="" src="./imgs/visual identity/bakery-pastry-shop-visual-corporate-identity-blank-template-items-collection_1284-14158.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c3.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/visual identity/bakery-pastry-shop-visual-corporate-identity-blank-template-items-collection_1284-14158.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -729,12 +737,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c4.jpg" alt="slides img">
+                                        <img class="" src="./imgs/visual identity/corporate-envelope-letter-templates_53876-67791.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c4.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/visual identity/corporate-envelope-letter-templates_53876-67791.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -743,12 +751,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c5.jpg" alt="slides img">
+                                        <img class="" src="./imgs/visual identity/flat-lay-business-card-with-braille-envelope_23-2148811299.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c5.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/visual identity/flat-lay-business-card-with-braille-envelope_23-2148811299.jpg' )">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -757,12 +765,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c6.jpg" alt="slides img">
+                                        <img class="" src="./imgs/visual identity/identity-technology-set_1284-10818.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c6.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c6.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -771,12 +779,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c2.jpg" alt="slides img">
+                                        <img class="" src="./imgs/visual identity/polygonal-brochure-template_23-2147493169.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c2.jpg')" data="">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/visual identity/polygonal-brochure-template_23-2147493169.jpg')" data="">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -787,12 +795,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c1.jpg" alt="slides img">
+                                        <img class="" src="./imgs/visual identity/restaurant-cafe-corporate-identity-icons-set_1284-11406.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c1.jpg')" data="">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/visual identity/restaurant-cafe-corporate-identity-icons-set_1284-11406.jpg')" data="">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -801,12 +809,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c3.jpg" alt="slides img">
+                                        <img class="" src="./imgs/visual identity/white-realistic-corporate-identity-set_1284-12782.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c3.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/visual identity/white-realistic-corporate-identity-set_1284-12782.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -815,12 +823,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c4.jpg" alt="slides img">
+                                        <img class="" src="./imgs/visual identity/bakery-pastry-shop-visual-corporate-identity-blank-template-items-collection_1284-14158.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c4.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/visual identity/bakery-pastry-shop-visual-corporate-identity-blank-template-items-collection_1284-14158.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -829,12 +837,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c5.jpg" alt="slides img">
+                                        <img class="" src="./imgs/visual identity/flat-lay-business-card-with-braille-envelope_23-2148811299.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c5.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/visual identity/flat-lay-business-card-with-braille-envelope_23-2148811299.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -843,12 +851,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c6.jpg" alt="slides img">
+                                        <img class="" src="./imgs/visual identity/polygonal-brochure-template_23-2147493169.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c6.jpg')">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/visual identity/polygonal-brochure-template_23-2147493169.jpg')">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -857,12 +865,12 @@
                             <div class="col-6 col-sm-6 col-md-4 portfolio__card bordered">
                                 <div class="portfolio__card__slides__main">
                                     <div class="portfolio__card__slides">
-                                        <img class="" src="./images/thumbnails/c2.jpg" alt="slides img">
+                                        <img class="" src="./imgs/visual identity/white-realistic-corporate-identity-set_1284-12782.jpg" alt="slides img">
                                         <div class="portfolio__card__slides__overlay">
                                             <div>
                                                <h5 class="h5 portfolio__card__slides__heading">Residual income 1</h5>
                                                <p class="portfolio__card__slides__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, delectus.</p>
-                                               <a href="#" class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./images/content/c2.jpg')" data="">Read More</a>
+                                               <a  class="btn btn-sm btn-outline-light portfolio__card__slides__btn" onclick="popupTogglerFunc('./imgs/visual identity/white-realistic-corporate-identity-set_1284-12782.jpg')" data="">Read More</a>
                                             </div>
                                         </div>
                                     </div>
@@ -876,118 +884,119 @@
     </div>
     <!-- Porfolio End -->
    <!-- Footer -->
-	<footer class="mt-5 mb-3">
+	<!-- Footer -->
+    <footer class="mt-5 mb-3">
 		<div id="Main-Footer" class="row">
-			<div class="cards col-6 col-md-2 mb-md-0 mb-5 text-center text-md-left" >
-				<ul>
-					<li>
-						<a class=" font-weight-bold" onclick="changeTabs('tab-1')" href="#">Logo</a>
-					</li>
-					<li>
-						<a class="" href="#">How it Works</a>
-					</li>
-					<li>
-						<a class="" href="#">Features</a>
-					</li>
-					<li>
-						<a class="" href="#">Pricing</a>
-					</li>
-					
-				</ul>
-			</div>
-			<div class="cards col-6 col-md-2  mb-md-0 mb-5 text-center text-md-left" >
-				<ul>
-					<li>
-						<a class=" font-weight-bold" onclick="changeTabs('tab-2')" href="#">Package</a>
-					</li>
-					<li>
-						<a class="" href="#">How it Works</a>
-					</li>
-					<li>
-						<a class="" href="#">Features</a>
-					</li>
-					<li>
-						<a class="" href="#">Pricing</a>
-					</li>
-					
-				</ul>
-			</div>
-			<div class="cards col-6 col-md-2 text-center text-md-left" >
-				<ul>
-					<li>
-						<a class=" font-weight-bold" onclick="changeTabs('tab-3')" href="#">Branding</a>
-					</li>
-					<li>
-						<a class="" href="#">How it Works</a>
-					</li>
-					<li>
-						<a class="" href="#">Features</a>
-					</li>
-					<li>
-						<a class="" href="#">Pricing</a>
-					</li>
-					
-				</ul>
-			</div>
-			<div class="cards col-6 col-md-2 text-center text-md-left" >
-				<ul>
-					<li>
-						<a class=" font-weight-bold" onclick="changeTabs('tab-4')" href="#">UI</a>
-					</li>
-					<li>
-						<a class="" href="#">How it Works</a>
-					</li>
-					<li>
-						<a class="" href="#">Features</a>
-					</li>
-					<li>
-						<a class="" href="#">Pricing</a>
-					</li>
-					
-				</ul>
-			</div>
-			<div class="cards col-12 col-md-2 text-center  mt-md-0 mt-5 " >
-				<a class=" font-weight-bold" href="#">
-					Social Media
-				</a>
-				<ul class="social ">
-                    <li><i class="fab fa-facebook-square"></i></li>
-                    <li><i class="fab fa-twitter-square"></i></li>
-                    <li><i class="fab fa-whatsapp-square"></i></li>
-                    <li><i class="fab fa-instagram-square"></i></li>
-                </ul>
-			</div>
+				<div class="cards col-6 col-md-2 mb-md-0 mb-5 text-center text-md-left">
+						<ul>
+								<li>
+										<a class=" font-weight-bold" href="_portfolio.html">Logo</a>
+								</li>
+								<li>
+										<a class="">How it Works</a>
+								</li>
+								<li>
+										<a class="">Features</a>
+								</li>
+								<li>
+										<a class="">Pricing</a>
+								</li>
+
+						</ul>
+				</div>
+				<div class="cards col-6 col-md-2  mb-md-0 mb-5 text-center text-md-left">
+						<ul>
+								<li>
+										<a class=" font-weight-bold" href="_portfolio.html">Caricature</a>
+								</li>
+								<li>
+										<a class="">How it Works</a>
+								</li>
+								<li>
+										<a class="">Features</a>
+								</li>
+								<li>
+										<a class="">Pricing</a>
+								</li>
+
+						</ul>
+				</div>
+				<div class="cards col-6 col-md-2 text-center text-md-left">
+						<ul>
+								<li>
+										<a class=" font-weight-bold" href="_portfolio.html">Graphics</a>
+								</li>
+								<li>
+										<a class="">How it Works</a>
+								</li>
+								<li>
+										<a class="">Features</a>
+								</li>
+								<li>
+										<a class="">Pricing</a>
+								</li>
+
+						</ul>
+				</div>
+				<div class="cards col-6 col-md-2 text-center text-md-left">
+						<ul>
+								<li>
+										<a class=" font-weight-bold" href="_portfolio.html">Visual Identity</a>
+								</li>
+								<li>
+										<a class="">How it Works</a>
+								</li>
+								<li>
+										<a class="">Features</a>
+								</li>
+								<li>
+										<a class="">Pricing</a>
+								</li>
+
+						</ul>
+				</div>
+				<div class="cards col-12 col-md-2 text-center  mt-md-0 mt-5 ">
+						<a class=" font-weight-bold">
+								Social Media
+						</a>
+						<ul class="social ">
+								<li><i class="fab fa-facebook-square"></i></li>
+								<li><i class="fab fa-twitter-square"></i></li>
+								<li><i class="fab fa-whatsapp-square"></i></li>
+								<li><i class="fab fa-instagram-square"></i></li>
+						</ul>
+				</div>
 		</div>
-	</footer>
-	<div id="footer-bootom" class="my-4">
+</footer>
+<div id="footer-bootom" class="my-4">
 		<div>
-			<ul>
-				<li>
-					<a class=" font-weight-bold" href="index.html">Home</a>
-				</li>
-				<li>
-					<a class=" font-weight-bold" href="_portfolio.html">Porfolio</a>
-				</li>
-				<li>
-					<a class=" font-weight-bold" href="_services.html">Services</a>
-				</li>
-				<li>
-					<a class=" font-weight-bold" href="_about_us.html">About</a>
-				</li>
-			</ul>
+				<ul>
+						<li>
+								<a class=" font-weight-bold" href="index.html">Home</a>
+						</li>
+						<li>
+								<a class=" font-weight-bold" href="_portfolio.html">Porfolio</a>
+						</li>
+						<li>
+								<a class=" font-weight-bold" href="_services.html">Services</a>
+						</li>
+						<li>
+								<a class=" font-weight-bold" href="_about_us.html">About</a>
+						</li>
+				</ul>
 		</div>
 		<div class=" font-weight-bold mb-5">
-			<ul>
-				<li>
-					2018 - Form
-				</li>
-				<li>
-					All right reserved
-				</li>
-			</ul>
+				<ul>
+						<li>
+								2018 - Form
+						</li>
+						<li>
+								All right reserved
+						</li>
+				</ul>
 		</div>
 
-	</div>
+</div>
     <!-- Footer -->
     <!-- Popup Detail Box -->
     <div class="popupdetail">
@@ -1009,7 +1018,7 @@
                                 <img id="facebookwhite" src="./images/img/facebookwhite.png">
                             </div>
                             <div>
-                                <a href="#">Contact </a>
+                                <a >Contact </a>
                             </div>
                         </div>
                         <div class="main__services__social__button" id="b">
@@ -1018,7 +1027,7 @@
                                 <img id="fiverrwhite" src="./images/img/fiverrwhite.png">
                             </div>
                             <div>
-                                <a href="#">Order Now</a>
+                                <a >Order Now</a>
                             </div>
                             
                         </div>
@@ -1028,7 +1037,7 @@
                                 <img id="whatsappwhite" src="./images/img/whatsappwhite.png">
                             </div>
                             <div>
-                                <a href="#">Contact</a>
+                                <a >Contact</a>
                             </div>
                         </div>
                     </div>
